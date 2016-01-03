@@ -33,14 +33,22 @@ abstract class MetadataValue{
 	protected $owningPlugin;
 
 	protected function __construct(Plugin $owningPlugin){
+		/*
+		!Weakref Remove
 		$this->owningPlugin = new \WeakRef($owningPlugin);
+		*/
+		$this->owningPlugin = $owningPlugin;
 	}
 
 	/**
 	 * @return Plugin
 	 */
 	public function getOwningPlugin(){
+		/*
+		!Weakref Remove
 		return $this->owningPlugin->get();
+		*/
+		return $this->owningPlugin;//Temp Fix
 	}
 
 	/**

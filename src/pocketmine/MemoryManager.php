@@ -59,14 +59,16 @@ class MemoryManager{
 
 	private $chunkCache;
 	private $cacheTrigger;
-
-	/** @var \WeakRef[] */
+/*
+	!Weakref Remove
+	
+	 @var \WeakRef[] 
 	private $leakWatch = [];
 
 	private $leakInfo = [];
 
 	private $leakSeed = 0;
-
+*/
 	public function __construct(Server $server){
 		$this->server = $server;
 

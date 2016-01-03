@@ -414,11 +414,13 @@ namespace pocketmine {
 			++$errors;
 		}
 	}
-
+	/*
+	!Weakref Remove
 	if(!extension_loaded("Weakref") and !extension_loaded("weakref")){
 		$logger->critical("Unable to find the Weakref extension.");
 		++$errors;
 	}
+	*/
 
 	if(!extension_loaded("curl")){
 		$logger->critical("Unable to find the cURL extension.");
