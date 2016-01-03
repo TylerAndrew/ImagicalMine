@@ -527,6 +527,7 @@ class PluginManager{
 
 		if($op === true){
 			foreach($this->defSubsOp as $k => $perm){
+				return $this->defSubsOp;//Temp Fix
 				/** @var \WeakRef $perm */
 				if($perm->acquire()){
 					$subs[] = $perm->get();
@@ -537,6 +538,7 @@ class PluginManager{
 			}
 		}else{
 			foreach($this->defSubs as $k => $perm){
+				return $this->defSubs;//Temp Fix
 				/** @var \WeakRef $perm */
 				if($perm->acquire()){
 					$subs[] = $perm->get();
