@@ -32,6 +32,10 @@ Port: **19132**
 IP: **5.175.226.133**    
 Port: **19133**
 
+**OnyxTech**<br>
+IP: **mcpe.onyxtech.ml**
+Port: **19132**
+**_White-Listed_** _InDev_
 ### Can I see some custom-made versions that are based off ImagicalMine?
 See what you can dig out on these servers:
 **LegoCraftPE**<br>
