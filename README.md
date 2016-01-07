@@ -35,7 +35,7 @@ Port: **19133**
 
 **Please do not submit your server via PR. You will be banned from the Imagical Corporation and all of its repositories if you do.**<br>
 ### Can I see some custom-made versions that are based off ImagicalMine?
-See what you can dig out on these servers:<be>
+See what you can dig out on these servers:<br>
 **LegoCraftPE**<br>
 IP: **play.legocraft.me**<br>
 Port: **19132**<br>
