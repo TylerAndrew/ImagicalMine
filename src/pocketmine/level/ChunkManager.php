@@ -100,5 +100,5 @@ interface ChunkManager{
 	 *
 	 * @return int
 	 */
-	public function getSeed() : string;
+	public function getSeed() : int;
 }
