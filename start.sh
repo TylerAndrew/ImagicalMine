@@ -41,7 +41,7 @@ if [ "$IMAGICALMINE_FILE" == "" ]; then
 	elif [ -f ./src/pocketmine/PocketMine.php ]; then
 		IMAGICALMINE_FILE="./src/pocketmine/PocketMine.php"
 	else
-		echo "error> There was an error in starting ImagicalMine. Check that this is either a file named ImagicalMine.phar or PocketMine-MP.phar or a src folder, or try reinstalling ImagicalMine with instructions at imagicalmine.net."
+		echo "error> There was an error while starting ImagicalMine, Please Check that there is either a file named ImagicalMine.phar or PocketMine-MP.phar or a src folder, or try reinstalling ImagicalMine with instructions at imagicalmine.net."
 		exit 7
 	fi
 fi
