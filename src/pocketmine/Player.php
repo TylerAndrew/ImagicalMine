@@ -111,6 +111,7 @@ use pocketmine\tile\Sign;
 use pocketmine\tile\Spawnable;
 use pocketmine\tile\Tile;
 use pocketmine\utils\TextFormat;
+use pocketmine\utils\UUID;
 use raklib\Binary;
 use pocketmine\item\Food;
 use pocketmine\entity\ThrownExpBottle;
