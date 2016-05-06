@@ -128,6 +128,16 @@ use pocketmine\nbt\tag\LongTag;
 use pocketmine\nbt\tag\StringTag;
 use pocketmine\nbt\tag\IntTag;
 use pocketmine\nbt\tag\EnumTag;
+use pocketmine\inventory\BaseTransaction;
+use pocketmine\inventory\BigShapedRecipe;
+use pocketmine\inventory\BigShapelessRecipe;
+use pocketmine\inventory\FurnaceInventory;
+use pocketmine\inventory\Inventory;
+use pocketmine\inventory\InventoryHolder;
+use pocketmine\inventory\PlayerInventory;
+use pocketmine\inventory\ShapedRecipe;
+use pocketmine\inventory\ShapelessRecipe;
+use pocketmine\inventory\SimpleTransactionGroup;
 
 /**
  * Main class that handles networking, recovery, and packet sending to the server part
